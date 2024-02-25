@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Codificador e Decodificador de Texto</h2>
+    <input type="text" id="inputText" placeholder="Insira o texto">
+    <select id="option">
+        <option value="encrypt">Criptografar</option>
+        <option value="decrypt">Descriptografar</option>
+    </select>
+    <br>
+    <button onclick="processText()">Processar</button>
+    <br><br><br>
+    <textarea id="outputText" rows="4" cols="50" readonly></textarea>
+    <br>
+    <button onclick="copyToClipboard()">Copiar para Área de Transferência</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
